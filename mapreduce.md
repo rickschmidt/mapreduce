@@ -44,11 +44,38 @@
 
 ## Why is MapReduce a good idea for large datasets?
 * Working with extremely large datasets requires massively parallel computation.  The data itself is largely independent or can at least be divided as such.   
+
 ## Implementations of the MapReduce Pattern
 ###Hadoop
 * Hadoop is a project from the Apache foundation
 * Hadoop allows the user to write map and reduce functions that can distribute the workload computing large datasets over thousands of nodes built from commodity hardware.  
 
-* Hadoop is 
+* Hadoop is largely supported by competing companies in order to replicate googles success in distributed cloud computing.
+
+
+##Cloud Computing
+The benefits of cloud computing are obvious to developers as are most of the drawbacks.  Skipping the benefits most developers can instantly point out that when all of your data is in the cloud you are opening yourself up to privacy violations and intellectual theft.  The host may not make there intentions of what they intend to do with your data.  If there is no intent in ever trying to profit off of an individuals data they may not take the steps necessary to secure their servers such as limiting access to employees and applying patches.  
+
+Distributed cloud computing is not the holy grail of information science and architecture as it would appear.  As the web has recently become more social there is a need to process data in real time.  The "real time web" has it has been dubbed is one in which social interactions form networks around data.  If your google you want to present this data instantly to your users. Users benefit from having the freshest content available; Google benefits from being able to advertise to you precisely when you are most interested in making a purchase.  
+
+The distributed model of MapReduce is costly in terms of time.  Yes very interesting statistics can be interpolated from massaging a data set but in order to adapt a real time solution is needed.  Google has begun to steer away from MapReduce in several of its products including search. An [example](http://www.theregister.co.uk/2010/09/09/google_caffeine_explained/ )     
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+lorem
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 
 
