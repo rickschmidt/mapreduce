@@ -1,4 +1,6 @@
-#MapReduce
+ `These notes will be used as presentation notes.  They will transformed into slides with some content removed for brevity.`
+#MapReduce and Cloud Computing
+### Rick Schmidt
 
 ##Highlights
 * MapReduce is an implementation for processing large data sets and was created at Google.
@@ -50,6 +52,7 @@ As the web continues to change everyday the use cases for MapReduce are also cha
 
 ## Why is MapReduce a good idea for large datasets?
 * Working with extremely large datasets requires massively parallel computation.  The data itself is largely independent or can at least be divided as such.   
+* In functional style programming state is left unchanged.  Instead of updating variables new values are created.  This means that the map function is non destructive which makes it ideal for distributed computing of large datasets.  The data set can be broken up into smaller datasets and distributed between many data center clusters and each operation can take place independent of the rest of the data.  Concurrency and synchronization problems go away when the software deviates from the traditional Von Neumann style approach of computing.
 
 ## Implementations of the MapReduce Pattern
 ###Hadoop
@@ -78,20 +81,6 @@ In bioinformatics there is a field called metagenomics.  Metagenomics is an area
 These are the kinds of problems that MapReduce are good for and will continue to work well with.  For example mapping similar DNA sequences in a metagenomic set  
 by there taxonomy and then taking a count is an extremely straightforward, useful, and easy to code implementation of map reduce.  The number of these operations will overwhelm a desktop computer.  The taxonomical identification using a BLAST search is relatively time consuming when the the numbers of sequences that need to be identified is so large.  
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-lorem
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
