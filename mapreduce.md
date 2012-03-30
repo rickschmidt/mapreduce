@@ -10,6 +10,12 @@
     
         *These functions inherently make the solution easy to implement recursively.*
 
+The implementation of the MapReduce algorithm has made cloud computing possible.  It often provides a straightforward solution to solving many computing problems that naturally arise when trying to implement features in a cloud based product.
+
+As the web continues to change everyday the use cases for MapReduce are also changing.  The social web has presented its own set of problems where MapReduce is not optimal.  As the demand for implementing new user features slows the rise in demand for computational power to work with "Big Data" increases.
+
+
+
 ##Necessity
 * The need for MapReduce software stems from the fact that google runs on cheap commodity hardware housed in large data centers all of the world running Linux.
 * Google had already solved the problem of how to access data spanning many disks over many continents with the google file system (GFS).
@@ -56,11 +62,21 @@
 ##Cloud Computing
 The benefits of cloud computing are obvious to developers as are most of the drawbacks.  Skipping the benefits most developers can instantly point out that when all of your data is in the cloud you are opening yourself up to privacy violations and intellectual theft.  The host may not make there intentions of what they intend to do with your data.  If there is no intent in ever trying to profit off of an individuals data they may not take the steps necessary to secure their servers such as limiting access to employees and applying patches.  
 
+###Real Time Web
 Distributed cloud computing is not the holy grail of information science and architecture as it would appear.  As the web has recently become more social there is a need to process data in real time.  The "real time web" has it has been dubbed is one in which social interactions form networks around data.  If your google you want to present this data instantly to your users. Users benefit from having the freshest content available; Google benefits from being able to advertise to you precisely when you are most interested in making a purchase.  
 
+###Reduction in utility of MapReduce from a consumers perspecitve
 The distributed model of MapReduce is costly in terms of time.  Yes very interesting statistics can be interpolated from massaging a data set but in order to adapt a real time solution is needed.  Google has begun to steer away from MapReduce in several of its products including search. An [example](http://www.theregister.co.uk/2010/09/09/google_caffeine_explained/ )     
 
+###Applications of MapReduce in light of the Real Time Web
+The end is far from near for MapReduce implementations.  At the same time the "real time web" is growing so is "big data".  Projects qualify as "big data" when the collections become so enormous that they require specialists in data taxonomy, warehousing, and analysis.  Big data projects promise great utility.  
 
+####Metagenomics
+In bioinformatics there is a field called metagenomics.  Metagenomics is an area of study where the genomes of an entire community are studied at once.  The data to be analyzed is often from organisms that practically can not be studied individually. Imagine all of the microbes in a soil sample, oceanic water, or your digestive tract.  Modern sequencing has made it possible to gather all of this information cheaply and quickly. It is valuable except few people have developed few tools to devise any meaning.  
+
+####How MapReduce can be used in Metagenomics
+These are the kinds of problems that MapReduce are good for and will continue to work well with.  For example mapping similar DNA sequences in a metagenomic set  
+by there taxonomy and then taking a count is an extremely straightforward, useful, and easy to code implementation of map reduce.  The number of these operations will overwhelm a desktop computer.  The taxonomical identification using a BLAST search is relatively time consuming when the the numbers of sequences that need to be identified is so large.  
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 lorem
