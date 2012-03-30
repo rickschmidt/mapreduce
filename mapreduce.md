@@ -65,7 +65,7 @@ The benefits of cloud computing are obvious to developers as are most of the dra
 ###Real Time Web
 Distributed cloud computing is not the holy grail of information science and architecture as it would appear.  As the web has recently become more social there is a need to process data in real time.  The "real time web" has it has been dubbed is one in which social interactions form networks around data.  If your google you want to present this data instantly to your users. Users benefit from having the freshest content available; Google benefits from being able to advertise to you precisely when you are most interested in making a purchase.  
 
-###Reduction in utility of MapReduce from a consumers perspecitve
+###Reduction in utility of MapReduce from a consumers perspective
 The distributed model of MapReduce is costly in terms of time.  Yes very interesting statistics can be interpolated from massaging a data set but in order to adapt a real time solution is needed.  Google has begun to steer away from MapReduce in several of its products including search. An [example](http://www.theregister.co.uk/2010/09/09/google_caffeine_explained/ )     
 
 ###Applications of MapReduce in light of the Real Time Web
